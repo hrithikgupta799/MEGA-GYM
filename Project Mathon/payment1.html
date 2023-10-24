@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Gym|Payment Page</title>
+    <link rel="stylesheet" href="./payment1.css">
+    <script src="https://kit.fontawesome.com/c637b63244.js" crossorigin="anonymous"></script>
+   
+    <link rel="shortcut icon" href="./favi-log.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        
+        <section id="detail">
+            <h1>WELCOME TO</h1>
+        <h2 id="logo">Mega<span> Gym</span></h2>
+        <h1>PERSONAL DETAIL</h1>
+        <hr class="bottom">
+        <h2>NAME</h2> <span id="namespan"></span>
+        <input type="text" id="namein" placeholder="ENTER YOUR NAME">
+        <h2>MOBILE NUMBER</h2><span id="mobspan"></span>
+        <input type="number" id="mobin" placeholder="ENTER YOUR MOBILE NUMBER">
+        <h2>EMAIL ID</h2><span id="idspan"></span>
+        <input type="email" id="idin" placeholder="ENTER YOUR EMAIL ID">
+        <h2>SELECT YOUR PLAN</h2><span id="planspan"></span>
+        <select name="" id="select" required>
+            <option value="" hidden>-Select-</option>
+            <option value="4000" >BASIC PLAN</option>
+            <option value="5000" >SPORTSMEN PLAN</option>
+            <option value="6000">PRO PLAN</option>
+        </select><br>
+        
+        </section>
+        <hr id="seprate">
+        <section id="payment">
+        <h1>PAYMENT DETAIL</h1>
+        <hr class="bottom">
+        <h2>CARD HOLDER NAME</h2><span id="cnamespan"></span>
+        <input type="text" id="cnamein" placeholder="ENTER CARD HOLDER NAME">
+        <h2>CARD NUMBER</h2><span id="numspan"></span>
+        <input type="number" id="numin" placeholder="ENTER YOUR CARD NUMBER">
+        <h2>EXPIRY</h2><span id="expriyspan"></span>
+        <input type="date" id="expriyin">
+        <h2>CVV</h2><span id="cvvspan"></span>
+        <input type="number" id="cvvin" placeholder="CVV">
+        <h2>AMOUNT</h2><span id="amountspan"></span>
+        <input type="number" id="amountin" placeholder="ENTER YOUR AMOUNT">
+        <h1 id="card">CARD ARE ACCEPTED</h1>
+        <hr class="bottom">
+        <i class="fa-brands fa-cc-mastercard"></i>
+        <i class="fa-brands fa-cc-visa"></i>
+        <i class="fa-brands fa-cc-discover"></i>
+        
+        </section>
+    </main>
+    <button onclick="sumbit()">SUMBIT</button>
+    
+    <a href="./home.html"><button style="margin-left: 0px;">CANCEL</button></a>
+    <script src="./payment.js"></script>
+</body>
+</html>

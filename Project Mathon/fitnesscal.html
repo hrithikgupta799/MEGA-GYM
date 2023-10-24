@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mega Gym | Fitness Calculator</title>
+    <link rel="shortcut icon" href="./seu1epprfqjslf3pofyb.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./fitnesscal.css">
+</head>
+<body>
+    <div>
+    <h1>BMI <span>Calculator</span> </h1>
+    <p>Enter your weight (kg) and height (m) to calculate your BMI:</p>
+    <nav><label for="weight">Weight <span>(kg)</span> :</label>
+    <input type="number" id="weight" placeholder="Enter Your Weight"></nav>
+    <br>
+    <nav>
+    <label for="height">Height <span>(m)</span> :</label>
+    <input type="number" id="height" placeholder="Enter Your Height in Meter"></nav>
+    <br>
+    <nav>
+      <button onclick="BMI()">Calculate BMI</button>
+    <a href="./home.html"><button >Cancel</button></a>
+    </nav>
+    
+    <p style="margin-bottom: 1rem;font-size: 20px;">Your BMI is: <span id="result"></span></p>
+    <span id="react"
+    style="padding: 5px;"></span>
+    <table>
+        <tr>
+          <th>BMI</th>
+          <th>Weight Status</th>
+        </tr>
+        <tr>
+          <td>Below 18.5</td>
+          <td>Underweight</td>
+        </tr>
+        <tr>
+          <td>18.5—24.9</td>
+          <td>Healthy Weight</td>
+        </tr>
+        <tr>
+          <td>25.0—29.9</td>
+          <td>Overweight</td>
+        </tr>
+        <tr>
+            <td>30.0 and Above</td>
+            <td>Obesity</td>
+          </tr>
+      </table>
+    </div>
+    <script src="./fitnesscal.js"></script>
+</body>
+</html>

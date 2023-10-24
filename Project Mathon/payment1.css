@@ -1,0 +1,96 @@
+body {
+    background-color: gray;
+       padding: 0;
+       margin: 0px;
+   }
+   
+main {
+       display: flex;
+       justify-content: center;
+       height: 520px;
+       width: 60%;
+       margin: auto;
+       background-color: black;
+       border-radius: 5%;
+       margin-top: 1rem;
+   }
+.bottom{
+    width: 80%;
+    margin: 0px 0px 15px 0px;
+}
+#detail{
+    width: 60%;
+    margin: auto;
+    margin-left: 2rem;
+}
+#seprate {
+    margin: 0px;
+    border: 1px white solid;
+}
+#payment{
+    width: 60%;
+    margin: auto;
+    margin-left: 2rem;
+}
+#logo {
+    padding: 1rem 1rem;
+    color: goldenrod;
+    font-size: 50px;
+    margin: 0;
+}
+#logo span {
+    color: white;
+    font-size: 40px;
+}
+h1{
+    color:blue;
+    font-size: 18px;
+    margin: 0.5rem 0px;
+}
+h2{
+    color: white;
+    font-size: 15px;
+    margin: 0px;
+    margin: 5px 0px;
+}
+span{
+    color: red;
+    font-size: 15px;
+}
+ input{
+    height: 22px;
+    width: 70%;
+    font-size: 16px;
+    display: block;
+}
+select{
+    height: 25px;
+    width: 70%;
+    font-size: 16px;
+    display: block;
+    margin: 0px;
+}
+i{
+    font-size: 50px;
+    margin: 0px 1rem;
+    color: white;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    padding: 10px 20px;
+    font-size: 15px;
+    margin: 1rem 17rem 1rem 27rem;
+    border: 1px red solid;
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: white;
+    color: red;
+    border: 1px red solid;
+}
